@@ -1,8 +1,8 @@
 #自用域名直连
 DOMAIN-SUFFIX,pishifu.org
 DOMAIN-SUFFIX,90.wf
-#DOMAIN-SUFFIX,onwaf.com
+DOMAIN-SUFFIX,onwaf.com
 DOMAIN-SUFFIX,memos.ws
 DOMAIN-SUFFIX,wyx.im
-#DOMAIN-SUFFIX,aes.im
-#DOMAIN-SUFFIX,input.im
+DOMAIN-SUFFIX,aes.im
+DOMAIN-SUFFIX,input.im
