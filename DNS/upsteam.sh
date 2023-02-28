@@ -6,7 +6,7 @@ curl -o "/var/tmp/default.upstream" "https://raw.githubusercontent.com/TTT-TD/AG
 curl -s https://gitlab.com/fernvenue/chn-domains-list/-/raw/master/CHN.ALL.agh | sed "/#/d" > "/var/tmp/chinalist.upstream"
 echo "$DATE: Processing data format..."
 cat "/var/tmp/default.upstream" "/var/tmp/chinalist.upstream" > /usr/share/adguardhome.upstream
-sed -i "s|114.114.114.114|tls://dot.pub|g" /usr/share/adguardhome.upstream
+sed -i "s|114.114.114.114|tls://dns.alidns.com|g" /usr/share/adguardhome.upstream
 echo "$DATE: Cleaning..."
 rm /var/tmp/*.upstream
 systemctl restart AdGuardHome
